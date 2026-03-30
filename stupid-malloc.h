@@ -3,7 +3,6 @@
 // create by yehonatan bondrenko in 30 mart 2026
 ////////////////////////////////////////////////
 
-#include <stdlib.h>
 #include <stddef.h>
 #define ten_kb 10000
 static char massive[ten_kb];
