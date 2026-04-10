@@ -5,7 +5,6 @@
 #define ALIGNMENT 8
 #define ALIGN(size) (((size) + (ALIGNMENT - 1)) & ~(ALIGNMENT - 1))
 #include <stddef.h>
-#include <string.h>
 #include ".h"
 #define ten_kb 10000
 static char massive[ten_kb];
